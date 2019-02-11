@@ -14,9 +14,10 @@ DB_USERNAME
 DB_PASSWORD
 
 
+
 # Creating the zip file
 
-or just run 
+Just run 
 ```
 build.sh
 ```
