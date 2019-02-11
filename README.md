@@ -1,14 +1,22 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# w-demo-laravel
 
 
-Hi there! Welcome to AWS Cloud9!
+# Deploy on AWS Beanstalk
+full docs
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-laravel-tutorial.html
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+# Environment Variables
+## RDS
+DB_HOST
+DB_PORT
+DB_DATABASE
+DB_USERNAME
+DB_PASSWORD
 
-Happy coding!
+
+# Creating the zip file
+
+or just run 
+```
+build.sh
+```

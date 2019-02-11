@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $data = array(
+        "db"=>DB::connection()->getDatabaseName()    
+    );
+    
+    return view('welcome', $data);
 });

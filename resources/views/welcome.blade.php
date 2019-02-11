@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>W-DEMO SUCCESS</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -81,9 +81,16 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    HALO SEMUANYA
+                </div>
+                
+                <div class="">
+                    <p>Currently connected to </p>
+                    <h2>{{ $db }}</h2>
+                
                 </div>
 
+                <!--
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
@@ -92,6 +99,7 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+                -->
             </div>
         </div>
     </body>
