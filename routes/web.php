@@ -12,8 +12,11 @@
 */
 
 Route::get('/', function () {
+    // test db connection
+    DB::connection()->getPdo();
+    $db_name = DB::connection()->getDatabaseName(); 
     $data = array(
-        "db"=>DB::connection()->getDatabaseName()    
+        "db"=> $db_name
     );
     
     return view('welcome', $data);
