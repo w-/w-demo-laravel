@@ -8,6 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
+        
 
         <!-- Styles -->
         <style>
@@ -87,7 +89,9 @@
                 <div class="">
                     <p>Currently connected to </p>
                     <h2>{{ $db }}</h2>
-                
+                </div>
+                <div style="text-align: center">
+                    <img src="{{ asset('imgs/aws.jpg') }}" alt="">
                 </div>
 
                 <!--
